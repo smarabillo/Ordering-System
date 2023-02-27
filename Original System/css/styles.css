@@ -1,0 +1,237 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* Login Css */
+
+.bckgrnd{
+    background-color: #b0acac;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.loginCon {
+    padding: 5px 60px;
+    padding-bottom: 45px;
+    background-color: rgba(241, 241, 241, 0.904);
+    margin: auto;
+    margin-top: 130px;
+    width: 25%;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+
+}.loginCon h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}.loginCon p{
+    text-align: center;
+    margin-bottom: 40px;
+
+}.loginCon input[type=text], .loginCon input[type=password], .loginCon input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,.2);
+
+}.loginCon button {
+    background-color: #1d8f5f;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+
+}.loginCon button:hover {
+  opacity: 0.8;
+
+}span a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+/* Navigation Css */
+  
+.nav{
+    list-style-type: none;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    padding: 12px 0;
+
+}.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}.nav li {
+    float: left;
+    padding: 0 15px;
+    
+
+}.nav li a {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 2px 14px;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(41, 41, 41);
+
+}.nav li a:hover {
+    transition: .5s;
+    transform: scale(1.1);
+
+}.nav i{
+    font-size: 18px;
+    margin-right: 9px;
+
+}.nav li a span:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* sub-menu */
+
+.submenu{
+    width: 31%;
+    margin: 16px 980px;
+    padding: 0px 10px;
+    height: 7vh;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+
+}.submenu a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding: 15px 46px;
+    float: right;
+    
+}.submenu a:hover{
+    color: rgb(30, 131, 213);
+    transition: .7s;
+    transform: scale(1.1);
+
+}
+
+
+/* UserList */
+
+.table {
+    margin-top: 20px;
+    margin-left: 60px;
+    border-collapse:collapse;
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+
+}.table td, .table th {
+    padding: 18px;
+    
+}.table th:first-child { 
+    border-top-left-radius: 20px; 
+
+}.table th:last-child {
+    border-top-right-radius: 20px;
+
+}.table tr:last-child td:first-child {
+    border-bottom-left-radius: 20px; 
+    
+}.table tr:last-child td:last-child { 
+    border-bottom-right-radius: 20px; 
+
+}.table tr{
+    background-color: #e0dfdf;
+
+}.table tr:hover{
+    background-color: #bcc1c5cf;
+    transition: .7s;
+
+}.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(34, 102, 161);
+    color: white;  
+    border-collapse:separate;
+    border-radius: 0px;
+
+}
+
+/* New User */
+
+.formblock {
+    background-color: #dfdfdf; 
+    width: 57%;
+    padding: 30px 60px;
+    padding-top: 20px;
+    margin-right: 70px;
+    margin: auto;
+    border-radius: 40px;
+
+}.formblock-half{
+    width: 45%;
+    float: left;
+    padding: 20px;
+
+}.formblock input[type=text], input[type=password]{
+    width: 86%;
+    padding: 10px 20px;
+    margin: auto;
+    margin: 10px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+
+}select{
+    width: 96%;
+    padding: 10px 17px;
+    margin: auto;
+    margin: 10px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+
+}input[type=submit] {
+    width: 30%;
+    background-color:#046aaa;
+    color: white;
+    padding: 11px 20px;
+    margin: 10px 185px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}input[type=submit]:hover {
+    opacity: 0.8;
+
+}#button-block {
+    width: 80%;
+    padding: 5px 130px;
+
+}.formblock button:hover {
+    opacity: 0.8;
+
+}
+
+/* title */
+h1{
+    text-align: center;
+    margin: 40px 20px;
+    font-size: 20px;
+}
