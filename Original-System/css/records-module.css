@@ -1,0 +1,44 @@
+/* Create Product Form */
+
+.productform{   
+    background-color: #e5e5e5; 
+    width: 43%;
+    height: 61vh;
+    padding-top: 20px;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-left: 388px;
+    position: absolute;
+
+}.productform input[type=text]{
+    width: 91%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+
+    
+}#productdesc{
+    width: 91%;
+    padding: 10px 10px;
+    padding-bottom: 60px;
+    margin: 10px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    
+
+}.productform input[type=submit] {
+    width: 30%;
+    background-color:#046aaa;
+    color: white;
+    padding: 11px 20px;
+    margin-top: 20px;
+    margin-left: 206px;
+    border: none;
+    border-radius: 10px;
+
+}.productform input[type=submit]:hover{
+    opacity: 0.8;
+}
