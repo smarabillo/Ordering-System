@@ -1,0 +1,326 @@
+/* User List  */
+
+.table {
+    margin-top: 20px;
+    margin-left: 60px;
+    border-collapse:collapse;
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+    text-align: center;
+
+}.table th {
+    background-color: #0067A5;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border-collapse:separate;
+    padding: 14px;
+
+}.table td{
+    padding: 14px;
+    background-color: white;
+    
+}.table th:first-child { 
+    border-top-left-radius: 10px; 
+
+}.table th:last-child {
+    border-top-right-radius: 10px;
+
+}.table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px; 
+    
+}.table tr:last-child td:last-child { 
+    border-bottom-right-radius: 10px; 
+
+}.table tr{
+    background-color: #dcdcdc;
+    border: #313436;
+
+}.table tr:hover{
+    transition: .7s;
+
+}.table .editbtn{
+    background-color: #e6e6e6;  
+    position: relative;
+    border: none;
+    border-radius: 50px;
+    padding: 3px 14px;
+    cursor: pointer;
+
+}.table .editbtn a{
+    color: #046aaa;
+    text-decoration: none;
+    font-weight: lighter;
+
+}.table .editbtn:hover{
+    background-color: #046aaa;
+    transition: .75s;
+
+}.table .editbtn:hover a{
+    color: white;
+}
+
+/* New User Form */
+
+.formblock {
+    background-color: rgb(219, 219, 219); 
+    width: 57%;
+    padding: 30px 38px;
+    padding-top: 20px;
+    margin-right: 70px;
+    margin: auto;
+    border-radius: 10px;
+
+}.formblock-half{
+    width: 45%;
+    float: left;
+    padding: 20px;
+
+}.formblock input[type=text], input[type=password]{
+    background-color: #f1f1f1;
+    width: 86%;
+    padding: 10px 20px;
+    margin: auto;
+    margin: 10px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+
+}.formblock select{
+    width: 96%;
+    padding: 10px 17px; 
+    margin: auto;
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+
+}.formblock input[type=submit] {
+    width: 25%;
+    background-color:#046aaa;
+    color: white;
+    padding: 11px 20px;
+    margin: 10px 289px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}.formblock input[type=submit]:hover {
+    opacity: 0.8;
+
+}#button-block {
+    width: 80%;
+    padding: 5px 130px;
+
+}
+
+/* User Profile */
+
+.profileblock{
+    background-color: rgb(228, 228, 228); 
+    width: 56%;
+    height: 62vh;
+    padding-top: 20px;
+    border-radius: 40px;
+    margin-left: 310px;
+    position: absolute;
+
+}.profilepic i{
+    padding: 10px 00px;
+    font-size: 220px;
+    position: absolute;
+    float: right;
+    margin-left: 63px;
+
+}#user-id{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 99px;
+    font-size: 25px;
+    font-weight: bold;
+
+}.profileblock-half{
+    width: 45%;
+    float: left;
+    padding: 20px;
+
+}.profileblock input[type=text]{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 7px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+
+}.select{
+    width: 89%;
+    padding: 10px 9px;
+    margin: 7px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2)
+
+}.profileblock select{
+    width: 91%;
+    padding: 10px 17px;
+    margin: auto;
+    margin: 10px 0;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+
+}.profileblock button {
+    width: 40%;
+    margin: 20px;
+    margin-left: 3px;
+    background-color:#045faa;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+
+}form { 
+    display: inline-block; 
+
+}.profileblock span button{
+    background-color: crimson;
+    width: 170%;
+    margin-left: 6px;
+    
+}.profileblock span button a{
+    color: white;
+    margin: auto;
+
+}.profileblock button a{
+    text-decoration: none;
+    color: white;
+
+}.profileblock button:hover {
+    opacity: 0.8;
+
+}.user-options {
+    position: absolute;
+    margin-top: 300px;
+
+}.user-options a{
+    color: #1961a9;
+    text-decoration: none;
+    margin-left: 104px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+
+/* Modal for updating password */
+
+}.modal {
+    display: none; 
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(255,255,255,70%);
+    padding-top: 10px;
+
+
+}.modal-content h1{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin: auto;
+    font-size: 20px;
+
+}.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto 15% auto; 
+    border: 4px solid #888;
+    width: 40%; 
+    border-radius: 20px;
+  
+}.modal-content input[type=password]{
+    width: 82%;
+    margin-top: 8px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border:rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+
+}.modal-content label{
+    margin-left: 30px;
+
+}.modal-content button{
+    width: 30%;
+    margin: 20px;
+    margin-left: 69px;
+    color: white;
+    background-color:#04aa54;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+
+}.modal-content button:hover{
+    opacity: 0.8;
+}
+
+/* Search */
+.submenusearch{
+    float: left;
+    background-color: #ebebeb;
+    width: 24%;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    border-bottom-right-radius: 20px;
+
+}.submenusearch input[type=text]{
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 3px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    width: 190px;
+    
+}.submenusearch a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 15px 30px;
+    float: left;
+
+}
+
+/* Download Button */
+
+.download-button{
+    margin-left: 0px;
+    margin-top: 60px;
+    padding: 6px 10px;
+    background-color: #7e7e7e00;
+    width: 16%;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 13px;
+
+}.download-button-print a{
+    width: 90%;
+    margin: 20px;
+    margin-left: 20px;
+    color: black;
+    border-radius: 90px;
+
+}.download-button-print a:hover{
+    transition: 0.2s;
+    color: #04aa54;
+
+}.download-button-print span a{
+    width: 100%;
+    margin: 20px;
+    margin-left: 2px;
+    color: black;
+    border-radius: 90px;
+
+}.download-button-print span a:hover{
+    transition: 0.2s;
+    color: #ff0707;
+
+}
