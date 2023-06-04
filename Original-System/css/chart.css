@@ -1,0 +1,11 @@
+
+/* Font for chart caption */
+.fusioncharts-caption {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Font for chart labels */
+.fusioncharts-yaxisname,
+.fusioncharts-datalabels {
+    font-family: 'Poppins', sans-serif;
+}
